@@ -1,0 +1,134 @@
+body{
+  font-family:"Open+Sans", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color:blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  min-height:95vh;
+}
+
+.main{
+  flex: 1;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+.innovative{
+  font-style: italic;
+  color: blue;
+  text-decoration: underline;
+}
+
+.creative{
+  font-style: italic;
+  color: rgb(235, 135, 4);
+  text-decoration: underline;
+}
+
+.web-design, .UI, .SEO, .ecommerce{
+  height: 250px;
+  float: left;
+  margin-right: 40px;
+}
+
+.card{
+  width: 45%;
+}
+
+.first{
+  float: left;
+  border: 2px solid orange;
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.second{
+  float: right;
+  border: 2px solid rgb(0, 255, 242);
+  border-radius: 15px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.third{
+  float: left;
+  border: 2px solid rgb(0, 102, 255);
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.fort{
+  float: right;
+  border: 2px solid rgb(255, 0, 21);
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 50px;
+  display: inline-block;
+}
+
+.card img{
+  width: 100%;
+  display: inline;
+  margin-top: 5px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+footer{
+text-decoration: underline;
+text-align: center;
+color: blue;
+margin-top: 10px;
+}
+
+button{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: goldenrod;
+  color:black;
+  font-size: 1.2em;
+}
+
+.btn-webdesign, .btn-commerce, .btn-design, .btn-seo{
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 680px){
+.logo{
+  width: 100%;
+}
+
+h1{
+  font-size: 5rem;
+}
+
+h2{
+  margin-top: 20px;
+}
+
+.card{
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+  text-align:left
+}
+
+.card img{
+  width: 100%;
+  display: inline;
+}
+
+.first, .second, .third, .fort{
+  width: 100%;
+  float: none;
+  margin-top: 30px;
+}
+
+}
